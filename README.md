@@ -1,6 +1,6 @@
-# Best Prompts for Text-to-Image Models  and How to Find Them
+# Identifying Optimal Prompts for Text-to-Image Generation Models
 
-This repository contains code and data for [Best Prompts for Text-to-Image Models and How to Find Them](https://arxiv.org/abs/2209.11711) paper.
+This repository contains code and data for Identifying Optimal Prompts for Text-to-Image Generation Models] paper.
 
 ## Code
 
@@ -31,20 +31,4 @@ To run a genetic optimization, you need to use `optimize.py` script that has the
 To obtain generated images, you need to use `https://storage.yandexcloud.net/diffusion/` as a base URL and append `{UID}_{0-3}.png` to it. For example,
 ```
 https://storage.yandexcloud.net/diffusion/0000298d546d4a6299774ca323fa7f34_0.png
-```
-
-## Cite
-
-Use this BibTeX citation in case you want to cite our work.
-```
-@misc{https://doi.org/10.48550/arxiv.2209.11711,
-  doi = {10.48550/ARXIV.2209.11711},
-  url = {https://arxiv.org/abs/2209.11711},
-  author = {Pavlichenko, Nikita and Zhdanov, Fedor and Ustalov, Dmitry},
-  keywords = {Human-Computer Interaction (cs.HC), Computation and Language (cs.CL), Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences, H.5.2; H.3.3},
-  title = {Best Prompts for Text-to-Image Models and How to Find Them},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution Share Alike 4.0 International}
-}
 ```
